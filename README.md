@@ -8,6 +8,7 @@ find_value(string, delimater, iteration) returns varchar
 string = 'here|are||some|seperated|values';
 
 find_value(string, '|', 4)
+
 returns 'some'
 
 find_value(string, '|', 3) 
